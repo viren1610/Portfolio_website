@@ -2,6 +2,8 @@ import Intro from "@/components/intro";
 import SectionDivider from "@/components/section-divider";
 import About from "@/components/About";
 import Myproject from "@/components/Myproject";
+import Skills from "@/components/skills";
+import Experience from '@/components/Experience'
 
 export default function Home() {
   return (
@@ -10,6 +12,8 @@ export default function Home() {
     <SectionDivider/>
     <About/>
     <Myproject/>
+    <Skills/>
+    <Experience/>
     </main>
   )
 }
