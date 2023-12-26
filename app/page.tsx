@@ -3,7 +3,7 @@ import SectionDivider from "@/components/section-divider";
 import About from "@/components/About";
 import Myproject from "@/components/Myproject";
 import Skills from "@/components/skills";
-import Experience from '@/components/Experience'
+import Exp from '@/components/Exp'
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
     <About/>
     <Myproject/>
     <Skills/>
-    <Experience/>
+    <Exp/>
     </main>
   )
 }
