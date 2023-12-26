@@ -4,6 +4,8 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import chatApp from "@/public/chatapp.png";
 import hacko from "@/public/hackoproject.png";
+import sihf from '@/public/SIHfrontend.jpg'
+import honey from "@/public/honey_extension.png"
 // import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -62,26 +64,33 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Glific Chat App",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: hacko,
+      "Glific Chat application delivers a seamless real-time communication experience. With its user-friendly interface and robust functionality. ",
+    tags: ["React", "Node", "Express", "Material-UI","Redux","MongoDB","React-Hook-Forms","Socket.IO"],
+    imageUrl: chatApp,
   },
   {
-    title: "rmtDev",
+    title: "HackOwasp 5.0",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: chatApp,
-  }
-//   {
-    // title: "Word Analytics",
-    // description:
-    //   "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    // tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    // imageUrl: wordanalyticsImg,
-//   },
+      "As the tech lead, I spearheaded the creation of the hackathon website for a GitHub-sponsored event. Leveraging my skills and expertise.",
+    tags: ["HTML", "CSS", "Javascript"],
+    imageUrl: hacko,
+  },
+   {
+     title: "Neer (नीर)",
+     description:
+       "Our SIH finalist project, an innovative admin dashboard, revolutionizes pipeline maintenance by detecting cracks swiftly and efficiently.",
+     tags: ["React", "Node", "Express", "Material-UI", "MongoDB","AWS","Node-Cron"],
+     imageUrl: sihf,
+   },
+   {
+     title: "Coupon Sleuth",
+     description:
+       "Introducing Coupon Sleuth, the essential Chrome extension that effortlessly scours the web, extracting hidden discount codes for savvy online shoppers",
+     tags: ["HTML","CSS","Javascript","Chrome Extension APIs"],
+     imageUrl: honey,
+   },
 ] as const;
 
 export const skillsData = [
