@@ -15,9 +15,9 @@ export default function About() {
         <SectionHeading>About Me</SectionHeading>
         <p className="mb-3 ">
           I'm pursuing my degree in{" "}
-          <span className="font-medium">Electrical Enginnering</span>, I decided
-          to pursue my passion for programming. I'm Self Taught{" "}
-          <span className="font-medium">full-stack web development</span>.{" "}
+          <span className="font-medium">Electrical Engineering</span>, I decided
+          to follow my passion for programming. I'm Self Taught{" "}
+          <span className="font-medium">in full-stack web development</span>.{" "}
           <span className="italic">My favorite part of programming</span> is the
           problem-solving aspect. I <span className="underline">love</span> the
           feeling of finally figuring out a solution to a problem. My core stack
@@ -33,7 +33,7 @@ export default function About() {
 
         <p>
           <span className="italic">When I'm not coding</span>, I enjoy playing
-          video games,creating animation sequence, and playing with my dog. I
+          video games,creating animation sequences, and playing with my dog. I
           also enjoy <span className="font-medium">learning new things</span>. I
           am currently learning about{" "}
           <span className="font-medium">space and all those astronomical phenomenon 🚀</span>. I'm also
