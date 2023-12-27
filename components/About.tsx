@@ -36,7 +36,7 @@ export default function About() {
           video games,creating animation sequence, and playing with my dog. I
           also enjoy <span className="font-medium">learning new things</span>. I
           am currently learning about{" "}
-          <span className="font-medium">history and philosophy</span>. I'm also
+          <span className="font-medium">space and all those astronomical phenomenon 🚀</span>. I'm also
           learning how to play electric guitar..
         </p>
       </section>
