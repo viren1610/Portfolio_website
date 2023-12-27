@@ -58,7 +58,7 @@ export const experiencesData = [
     description:
       "I currently hold the role of web development mentor at OWASP-TIET, guiding and supporting fellow students in mastering the intricacies of web development.",
       icon: React.createElement(FaUserGraduate),
-    date: "2021 - present",
+    date: "2023 - present",
   },
 ] as const;
 
