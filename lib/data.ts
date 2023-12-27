@@ -1,6 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaUserGraduate } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import chatApp from "@/public/chatapp.png";
 import hacko from "@/public/hackoproject.png";
@@ -37,27 +37,27 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "TIET'25",
+    location: "Patiala, Punjab",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I am currently enrolled in a four-year bachelor's engineering program.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021-2025",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Tech-Head",
+    location: "OWASP TIET",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "As the Tech Lead at our university, I take great pride in fostering a collaborative environment that encourages innovation and learning. Leading a GitHub-sponsored hackathon",
+      icon: React.createElement(FaUserGraduate),
+    date: "2022 - 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Web-Dev Mentor",
+    location: "OWASP TIET",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
+      "I currently hold the role of web development mentor at OWASP-TIET, guiding and supporting fellow students in mastering the intricacies of web development.",
+      icon: React.createElement(FaUserGraduate),
     date: "2021 - present",
   },
 ] as const;
@@ -103,14 +103,15 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
+  "Rust",
   "MongoDB",
   "Redux",
   "GraphQL",
-  "Apollo",
+  "REST",
+  "Material-UI",
   "Express",
   "PostgreSQL",
   "Python",
-  "Django",
+  "C++",
   "Framer Motion",
 ] as const;
